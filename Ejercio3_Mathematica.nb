@@ -1,0 +1,31 @@
+Notebook[{Cell[
+CellGroupData[{Cell[
+BoxData[{RowBox[{RowBox[{"A"," ","="," ",RowBox[
+{"{",RowBox[{RowBox[{"{",RowBox[{"0.25",","," ","0.15",","," ","0"}],"}"}],","," ",RowBox[
+{"{",RowBox[{"0.45",","," ","0.5",","," ","0.75"}],"}"}],","," ",RowBox[{"{",RowBox[
+{"0.3",","," ","0.35",","," ","0.25"}],"}"}]}],"}"}]}],";"}],"\n",RowBox[{RowBox[
+{"B"," ","="," ",RowBox[{"{",RowBox[{"1.5",","," ","5",","," ","3"}],"}"}]}],";"}],"\n",RowBox[
+{RowBox[{"x"," ","="," ",RowBox[{"LinearSolve","[",RowBox[{"A",","," ","B"}],"]"}]}],";"}],"\n",RowBox[
+{RowBox[{"Print","[","\"La cantidad diaria a producir es:\"","]"}],";"}],"\n",RowBox[
+{RowBox[{"Print","[",RowBox[{"\"Tipo A: \"",","," ",RowBox[{"Round","[",RowBox[{RowBox[
+{"x","[",RowBox[{"[","1","]"}],"]"}],","," ",".001"}],"]"}],","," ","\" toneladas\""}],"]"}],";"}],"\n",RowBox[
+{RowBox[{"Print","[",RowBox[{"\"Tipo B: \"",","," ",RowBox[{"Round","[",RowBox[{RowBox[
+{"x","[",RowBox[{"[","2","]"}],"]"}],","," ",".001"}],"]"}],","," ","\" toneladas\""}],"]"}],";"}],"\n",RowBox[
+{RowBox[{RowBox[{"Print","[",RowBox[{"\"Tipo C: \"",","," ",RowBox[{"Round","[",RowBox[
+{RowBox[{"x","[",RowBox[{"[","3","]"}],"]"}],","," ",".001"}],"]"}],","," ","\" toneladas\""}],"]"}],";"}],"\n"}]}],
+"Input",CellLabel -> "In[96]:= ",ExpressionUUID -> "2bfceb0a-c9ce-43d2-8f85-8f3d87105e18"],Cell[
+BoxData[
+"\"La cantidad diaria a producir es:\"",StandardForm],"Print",ExpressionUUID -> "a8872adb-008a-49cf-a1eb-7b3970fdf6d2"],Cell[
+BoxData[
+InterpretationBox[RowBox[{"\"Tipo A: \"","\[InvisibleSpace]","3.214`","\[InvisibleSpace]","\" toneladas\""}],
+SequenceForm["Tipo A: ",3.214`," toneladas"],Editable -> False],StandardForm],"Print",
+ExpressionUUID -> "79c41deb-a935-4499-a2d9-34ffa1342bd5"],Cell[
+BoxData[InterpretationBox[
+RowBox[{"\"Tipo B: \"","\[InvisibleSpace]","4.643`","\[InvisibleSpace]","\" toneladas\""}],
+SequenceForm["Tipo B: ",4.643`," toneladas"],Editable -> False],StandardForm],"Print",
+ExpressionUUID -> "70f35ce5-d472-4d52-9ba8-711e1f8583fc"],Cell[
+BoxData[InterpretationBox[
+RowBox[{"\"Tipo C: \"","\[InvisibleSpace]","1.643`","\[InvisibleSpace]","\" toneladas\""}],
+SequenceForm["Tipo C: ",1.643`," toneladas"],Editable -> False],StandardForm],"Print",
+ExpressionUUID -> "157c3d73-c022-458b-821b-9c7b31e7449b"]},Open],ExpressionUUID -> "3f9e82ee-916a-4230-95a1-98225bb7bd51"]},
+StyleDefinitions -> "Default.nb",FrontEndVersion -> "13.2 for Wolfram Cloud 1.64.3 (March 13, 2023)"]
