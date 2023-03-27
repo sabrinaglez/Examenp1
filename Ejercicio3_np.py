@@ -9,7 +9,7 @@ B = np.array([1.5, 5, 3])
 sol = np.linalg.solve(A, B)
 
 # Soluciones por fertilizante
-print("La cantidad diaria que se debe producir de cada tipo de fertilizante es:")
+print("Se debe producir diaramente:")
 print(f"Tipo A: {sol[0]:.3f} toneladas")
 print(f"Tipo B: {sol[1]:.3f} toneladas")
 print(f"Tipo C: {sol[2]:.3f} toneladas")
